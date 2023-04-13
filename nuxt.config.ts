@@ -1,5 +1,7 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
+import { fontFamily } from "tailwindcss/defaultTheme"
+
 export default defineNuxtConfig({
+  modules: ["@nuxtjs/tailwindcss"],
   css: ["~/assets/styles/index.css"],
   app: {
     head: {
@@ -30,10 +32,24 @@ export default defineNuxtConfig({
   experimental: {
     payloadExtraction: false,
   },
-  postcss: {
-    plugins: {
-      tailwindcss: {},
-      autoprefixer: {},
+  tailwindcss: {
+    config: {
+      content: [
+        "./components/**/*.vue",
+        "./layouts/**/*.vue",
+        "./pages/**/*.vue",
+        "./error.vue",
+        "./app.vue",
+      ],
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ["Inter", ...fontFamily.sans],
+            mono: [...fontFamily.mono],
+            serif: [...fontFamily.serif],
+          },
+        },
+      },
     },
   },
 })
