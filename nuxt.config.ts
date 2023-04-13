@@ -1,5 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  css: ["~/assets/styles/index.css"],
   app: {
     head: {
       title: "João",
@@ -26,7 +27,9 @@ export default defineNuxtConfig({
       ],
     },
   },
-  css: ["~/assets/styles/index.css"],
+  experimental: {
+    payloadExtraction: false,
+  },
   postcss: {
     plugins: {
       tailwindcss: {},
