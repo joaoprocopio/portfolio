@@ -1,13 +1,14 @@
 <template>
-  <header class="h-16 w-full fixed bg-white">
-    <div class="flex items-center px-4 py-2 h-full max-w-7xl mx-auto">
-      <NuxtLink class="font-black text-3xl" to="/">JOÃO</NuxtLink>
-    </div>
-  </header>
+  <shared-container
+    tag="header"
+    class="h-16 fixed bg-white border-b-2"
+    content-class="flex items-center h-full">
+    <NuxtLink class="font-black text-3xl" to="/">João</NuxtLink>
+  </shared-container>
   <main class="pt-16">
     <slot />
   </main>
-  <footer class="h-32 px-4 py-2 bg-white">
-    <!-- TODO: fazer o footer -->
-  </footer>
+  <shared-container tag="footer" class="h-96 bg-gray-200">
+    <div></div>
+  </shared-container>
 </template>
