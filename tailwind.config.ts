@@ -1,6 +1,7 @@
+import type { Config } from "tailwindcss"
 import { fontFamily } from "tailwindcss/defaultTheme"
 
-export default {
+const tailwindConfig: Config = {
   content: [
     "./components/**/*.vue",
     "./layouts/**/*.vue",
@@ -12,8 +13,12 @@ export default {
     extend: {
       fontFamily: {
         sans: ["Inter", ...fontFamily.sans],
+        mono: [...fontFamily.mono],
+        serif: [...fontFamily.serif],
       },
     },
   },
   plugins: [],
 }
+
+export default tailwindConfig
