@@ -1,11 +1,28 @@
 <template>
-  <NuxtLayout>
-    <shared-container class="h-[calc(100vh-64px)] bg-gray-100">
-      <div>
-        <code>
-          {{ $route }}
+  <nuxt-layout>
+    <shared-container
+      max-width="max-w-lg"
+      class="h-[calc(80vh-64px)] bg-gray-100"
+      content-class="pt-32">
+      <h1 class="text-3xl font-bold mb-4">Página não encontrada</h1>
+      <p class="mb-6">
+        Desculpe, a página
+        <code class="bg-gray-300 px-2 py-1 rounded">
+          {{ $route.fullPath }}
         </code>
+        não foi encontrada.
+      </p>
+      <div class="border rounded py-6 px-4 bg-blue-100">
+        <nuxt-link to="/" class="text-blue-500 underline">
+          Volte à página inicial
+        </nuxt-link>
       </div>
     </shared-container>
-  </NuxtLayout>
+  </nuxt-layout>
 </template>
+
+<script setup>
+  useHead({
+    title: "Página não encontrada",
+  })
+</script>

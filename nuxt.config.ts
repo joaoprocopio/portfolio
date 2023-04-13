@@ -27,7 +27,15 @@ export default defineNuxtConfig({
         },
         {
           rel: "stylesheet",
-          href: "https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap",
+          href: "https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap",
+        },
+        {
+          rel: "stylesheet",
+          href: "https://fonts.googleapis.com/css2?family=Bitter:wght@400;700;900&display=swap",
+        },
+        {
+          rel: "stylesheet",
+          href: "https://fonts.googleapis.com/css2?family=Cousine:wght@400;700&display=swap",
         },
       ],
     },
@@ -48,8 +56,8 @@ export default defineNuxtConfig({
         extend: {
           fontFamily: {
             sans: ["Inter", ...fontFamily.sans],
-            mono: [...fontFamily.mono],
-            serif: [...fontFamily.serif],
+            mono: ["Cousine", ...fontFamily.mono],
+            serif: ["Bitter", ...fontFamily.serif],
           },
         },
       },

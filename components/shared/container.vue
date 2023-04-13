@@ -12,7 +12,12 @@
 </template>
 
 <script lang="ts">
-  type MaxWidthType = "max-w-4xl" | "max-w-6xl" | "max-w-full"
+  type MaxWidthType =
+    | "max-w-lg"
+    | "max-w-2xl"
+    | "max-w-4xl"
+    | "max-w-6xl"
+    | "max-w-full"
   type TagsType = "div" | "header" | "footer"
 </script>
 

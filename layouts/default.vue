@@ -3,7 +3,7 @@
     tag="header"
     class="h-16 fixed bg-white border-b-2"
     content-class="flex items-center h-full">
-    <NuxtLink class="font-black text-3xl" to="/">João</NuxtLink>
+    <nuxt-link class="font-serif font-black text-3xl" to="/">jp</nuxt-link>
   </shared-container>
   <main class="pt-16">
     <slot />
