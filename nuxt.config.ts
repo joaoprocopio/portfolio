@@ -25,17 +25,17 @@ export default defineNuxtConfig({
           crossorigin: "",
         },
         {
-          rel: "preload",
+          rel: "prefetch",
           as: "style",
           href: "https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap",
         },
         {
-          rel: "preload",
+          rel: "prefetch",
           as: "style",
           href: "https://fonts.googleapis.com/css2?family=Bitter:wght@400;700;900&display=swap",
         },
         {
-          rel: "preload",
+          rel: "prefetch",
           as: "style",
           href: "https://fonts.googleapis.com/css2?family=Cousine:wght@400;700&display=swap",
         },
