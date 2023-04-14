@@ -49,7 +49,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: ${{ env.BASE_URL }}
+      url: ${{ vars.BASE_URL }}
     runs-on: ubuntu-latest
     needs: build
     steps:
