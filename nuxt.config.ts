@@ -2,7 +2,6 @@ import { fontFamily } from "tailwindcss/defaultTheme"
 
 export default defineNuxtConfig({
   modules: ["@nuxtjs/tailwindcss"],
-  css: ["~/assets/styles/index.css"],
   app: {
     head: {
       title: "João",
@@ -44,6 +43,8 @@ export default defineNuxtConfig({
     payloadExtraction: false,
   },
   tailwindcss: {
+    viewer: false,
+    cssPath: "./assets/css/tailwind.css",
     config: {
       content: [
         "./components/**/*.vue",
