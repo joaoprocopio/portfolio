@@ -8,7 +8,9 @@
   <main class="pt-16">
     <slot />
   </main>
-  <shared-container tag="footer" class="h-96 bg-gray-200">
-    <div></div>
+  <shared-container
+    tag="footer"
+    class="h-96 bg-neutral-200"
+    content-class="h-full">
   </shared-container>
 </template>
