@@ -1,8 +1,7 @@
 <template>
-  <!-- TODO: fazer navegacao usando id e router links -->
   <shared-container class="h-[calc(100vh-64px)] bg-neutral-100">
     <div class="mt-6">
-      <h1 class="font-mono text-lg mb-2">Olá 👋, meu nome é</h1>
+      <h1 class="font-mono text-lg mb-2">Olá, meu nome é</h1>
       <h2 class="font-bold text-6xl mb-4">João Procópio,</h2>
       <h3 class="font-semibold text-4xl mb-6">
         Eu uso tecnologia para resolver problemas.

@@ -42,17 +42,17 @@ export default defineNuxtConfig({
         {
           rel: "prefetch",
           as: "style",
-          href: "https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap",
+          href: "https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap",
         },
         {
           rel: "prefetch",
           as: "style",
-          href: "https://fonts.googleapis.com/css2?family=Bitter:wght@400;700;900&display=swap",
+          href: "https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@400;700;900&display=swap",
         },
         {
           rel: "prefetch",
           as: "style",
-          href: "https://fonts.googleapis.com/css2?family=Cousine:wght@400;700&display=swap",
+          href: "https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap",
         },
         {
           key: "canonical",
@@ -79,9 +79,9 @@ export default defineNuxtConfig({
       theme: {
         extend: {
           fontFamily: {
-            sans: ["Inter", ...fontFamily.sans],
-            mono: ["Cousine", ...fontFamily.mono],
-            serif: ["Bitter", ...fontFamily.serif],
+            sans: ["Roboto", ...fontFamily.sans],
+            mono: ["Roboto Mono", ...fontFamily.mono],
+            serif: ["Roboto Serif", ...fontFamily.serif],
           },
         },
       },

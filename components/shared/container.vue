@@ -27,7 +27,7 @@
   const $props = defineProps({
     maxWidth: {
       type: String as PropType<MaxWidthType>,
-      default: "max-w-6xl",
+      default: "max-w-lg",
     },
     contentClass: {
       type: String,
