@@ -7,8 +7,9 @@
     </h1>
     <h2 class="text-4xl mb-2 font-black">Engenheiro de Software</h2>
     <p class="font-medium text-neutral-700">
-      Sou um profissional comprometido e apaixonado por tecnologia. Com
-      habilidades em desenvolvimento de software e otimização de processos.
+      Sou um profissional comprometido e apaixonado por tecnologia. Tenho uma
+      visão clara sobre como a tecnologia pode ser uma ferramenta poderosa para
+      solucionar problemas do mundo real.
     </p>
   </shared-container>
 </template>
