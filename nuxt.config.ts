@@ -31,12 +31,6 @@ export default defineNuxtConfig({
       ],
       link: [
         {
-          key: "icon",
-          rel: "icon",
-          type: "image/svg+xml",
-          href: "/favicon.svg",
-        },
-        {
           key: "canonical",
           rel: "canonical",
           href: "http://joaoprocopio.github.io/",
