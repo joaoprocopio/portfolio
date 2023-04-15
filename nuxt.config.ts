@@ -25,11 +25,22 @@ export default defineNuxtConfig({
           hid: "description",
           name: "description",
           content:
-            "Eu sou um estudante de engenharia de software. Eu acredito que a tecnologia pode resolver problemas reais e estou sempre procurando maneiras inovadoras e eficazes para enfrentar esses desafios.",
+            "Sou um engenheiro de software. Eu acredito que a tecnologia pode resolver problemas reais e estou sempre procurando maneiras inovadoras e eficazes para enfrentar esses desafios.",
         },
         { hid: "robots", name: "robots", content: "index, follow" },
       ],
       link: [
+        {
+          key: "icon",
+          rel: "icon",
+          type: "image/svg+xml",
+          href: "/favicon.svg",
+        },
+        {
+          key: "canonical",
+          rel: "canonical",
+          href: "http://joaoprocopio.github.io/",
+        },
         {
           rel: "preconnect",
           href: "https://fonts.googleapis.com",
@@ -47,17 +58,7 @@ export default defineNuxtConfig({
         {
           rel: "prefetch",
           as: "style",
-          href: "https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@400;700;900&display=swap",
-        },
-        {
-          rel: "prefetch",
-          as: "style",
           href: "https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap",
-        },
-        {
-          key: "canonical",
-          rel: "canonical",
-          href: "http://joaoprocopio.github.io/",
         },
       ],
     },
@@ -67,7 +68,7 @@ export default defineNuxtConfig({
   },
   tailwindcss: {
     viewer: false,
-    cssPath: "./assets/css/tailwind.css",
+    cssPath: "./assets/styles/tailwind.css",
     config: {
       content: [
         "./components/**/*.vue",
@@ -81,7 +82,6 @@ export default defineNuxtConfig({
           fontFamily: {
             sans: ["Roboto", ...fontFamily.sans],
             mono: ["Roboto Mono", ...fontFamily.mono],
-            serif: ["Roboto Serif", ...fontFamily.serif],
           },
         },
       },
