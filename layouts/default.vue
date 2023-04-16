@@ -1,7 +1,7 @@
 <template>
   <shared-container
     tag="header"
-    class="h-16 fixed bg-white border-b-2"
+    class="h-header fixed bg-white border-b-2"
     content-class="flex items-center h-full">
     <!--  -->
   </shared-container>
@@ -10,7 +10,7 @@
   </main>
   <shared-container
     tag="footer"
-    class="h-96 bg-neutral-200"
+    class="h-footer bg-neutral-200"
     content-class="h-full">
     <!--  -->
   </shared-container>

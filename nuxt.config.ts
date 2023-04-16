@@ -77,6 +77,16 @@ export default defineNuxtConfig({
             sans: ["Roboto", ...fontFamily.sans],
             mono: ["Roboto Mono", ...fontFamily.mono],
           },
+          height: () => {
+            const header = "4rem"
+            const footer = "24rem"
+
+            return {
+              header: header,
+              footer: footer,
+              section: `calc(100vh - ${header})`,
+            }
+          },
         },
       },
     },

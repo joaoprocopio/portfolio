@@ -2,7 +2,7 @@
   <nuxt-layout>
     <shared-container
       max-width="max-w-lg"
-      class="h-[calc(80vh-64px)] bg-neutral-100"
+      class="h-section bg-neutral-100"
       content-class="pt-32">
       <h1 class="text-3xl font-bold mb-4">Página não encontrada</h1>
       <p class="mb-6">
