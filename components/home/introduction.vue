@@ -1,6 +1,6 @@
 <template>
   <shared-container class="h-section" content-class="h-full ">
-    <h1 class="font-mono tracking-widest mb-1 text-neutral-700 uppercase">
+    <h1 class="font-mono tracking-widest text-neutral-700 uppercase">
       João Procópio
     </h1>
     <h2 class="text-4xl mb-4 font-black">Engenheiro de Software</h2>

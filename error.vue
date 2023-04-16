@@ -1,9 +1,6 @@
 <template>
   <nuxt-layout>
-    <shared-container
-      max-width="max-w-lg"
-      class="h-section bg-neutral-100"
-      content-class="pt-32">
+    <shared-container class="h-section bg-neutral-100" content-class="pt-32">
       <h1 class="text-3xl font-bold mb-4">Página não encontrada</h1>
       <p class="mb-6">
         Desculpe, a página
