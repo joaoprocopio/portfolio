@@ -47,12 +47,12 @@ export default defineNuxtConfig({
         {
           rel: "prefetch",
           as: "style",
-          href: "https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap",
+          href: "https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap",
         },
         {
           rel: "prefetch",
           as: "style",
-          href: "https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap",
+          href: "https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@400;600&display=swap",
         },
       ],
     },
@@ -74,18 +74,8 @@ export default defineNuxtConfig({
       theme: {
         extend: {
           fontFamily: {
-            sans: ["Roboto", ...fontFamily.sans],
-            mono: ["Roboto Mono", ...fontFamily.mono],
-          },
-          height: () => {
-            const header = "4rem"
-            const footer = "24rem"
-
-            return {
-              header: header,
-              footer: footer,
-              section: `calc(100vh - ${header})`,
-            }
+            sans: ["Inter", ...fontFamily.sans],
+            mono: ["Chivo Mono", ...fontFamily.mono],
           },
         },
       },

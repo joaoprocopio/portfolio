@@ -1,6 +1,6 @@
 <template>
   <shared-header />
-  <main class="pt-16">
+  <main>
     <slot />
   </main>
   <shared-footer />
