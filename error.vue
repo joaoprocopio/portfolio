@@ -11,7 +11,7 @@
         A página
         <code
           class="font-semibold bg-indigo-200 text-indigo-600 px-1.5 py-1 rounded">
-          {{ $props.error.url }}
+          {{ $route.path }}
         </code>
         não foi encontrada.
       </p>
@@ -27,12 +27,5 @@
 <script setup>
   useHead({
     title: "Página não encontrada",
-  })
-
-  const $props = defineProps({
-    error: {
-      type: Object,
-      required: true,
-    },
   })
 </script>
