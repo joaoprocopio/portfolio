@@ -2,7 +2,7 @@
 
 @layer base {
   html {
-    @apply text-neutral-900;
+    @apply text-neutral-700;
   }
 }
 

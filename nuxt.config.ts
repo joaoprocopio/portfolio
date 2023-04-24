@@ -1,7 +1,4 @@
-import { fontFamily } from "tailwindcss/defaultTheme"
-
 export default defineNuxtConfig({
-  modules: ["@nuxtjs/tailwindcss"],
   app: {
     head: {
       title: "Engenheiro de software e resolvedor de problemas.",
@@ -47,38 +44,25 @@ export default defineNuxtConfig({
         {
           rel: "prefetch",
           as: "style",
-          href: "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap",
+          href: "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap",
         },
         {
           rel: "prefetch",
           as: "style",
-          href: "https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@400;600&display=swap",
+          href: "https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@400;700&display=swap",
         },
       ],
+    },
+  },
+  modules: ["@nuxt/content"],
+  css: ["~/assets/styles/tailwind.css"],
+  postcss: {
+    plugins: {
+      tailwindcss: {},
+      autoprefixer: {},
     },
   },
   experimental: {
     payloadExtraction: false,
-  },
-  tailwindcss: {
-    viewer: false,
-    cssPath: "./assets/styles/tailwind.css",
-    config: {
-      content: [
-        "./components/**/*.vue",
-        "./layouts/**/*.vue",
-        "./pages/**/*.vue",
-        "./error.vue",
-        "./app.vue",
-      ],
-      theme: {
-        extend: {
-          fontFamily: {
-            sans: ["Inter", ...fontFamily.sans],
-            mono: ["Chivo Mono", ...fontFamily.mono],
-          },
-        },
-      },
-    },
   },
 })
