@@ -11,7 +11,7 @@
           <ui-code>{{ path }}</ui-code>
           não foi encontrada.
         </p>
-        <ui-button variant="tonal" padding="large" to="/">
+        <ui-button variant="tonal" padding="large" to="/" @click="handleError">
           Voltar à página inicial
         </ui-button>
       </ui-card>
@@ -45,4 +45,6 @@
   )
 
   const $props = defineProps<Props>()
+
+  const handleError = () => clearError({ redirect: "/" })
 </script>
