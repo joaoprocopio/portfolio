@@ -42,14 +42,13 @@ export default defineNuxtConfig({
           crossorigin: "",
         },
         {
-          rel: "prefetch",
+          rel: "preload",
           as: "style",
           href: "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap",
         },
         {
-          rel: "prefetch",
-          as: "style",
-          href: "https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@400;700&display=swap",
+          rel: "stylesheet",
+          href: "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap",
         },
       ],
     },

@@ -1,3 +1,11 @@
 <template>
-  <app-container tag="header"> </app-container>
+  <app-container
+    is="header"
+    content-class="h-12 flex justify-between items-center">
+    <ui-button padding="zero" variant="text" to="/">João</ui-button>
+    <nav class="flex items-center h-full gap-4">
+      <ui-button padding="zero" variant="text" to="/blog"> Blog </ui-button>
+      <ui-button to="/#contato"> Contato </ui-button>
+    </nav>
+  </app-container>
 </template>

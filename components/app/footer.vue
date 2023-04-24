@@ -1,3 +1,3 @@
 <template>
-  <app-container tag="footer"> </app-container>
+  <app-container is="footer"> </app-container>
 </template>

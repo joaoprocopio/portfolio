@@ -13,7 +13,9 @@ const config: Config = {
     extend: {
       fontFamily: {
         sans: ["Inter", ...fontFamily.sans],
-        mono: ["Chivo Mono", ...fontFamily.mono],
+      },
+      height: {
+        "safe-screen": "calc(100vh - 48px)",
       },
     },
   },

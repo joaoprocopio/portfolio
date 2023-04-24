@@ -4,7 +4,7 @@
   </nuxt-layout>
 </template>
 
-<script setup>
+<script setup lang="ts">
   useHead({
     title: "Página não encontrada",
   })
