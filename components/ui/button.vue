@@ -1,7 +1,6 @@
 <template>
   <button
     v-if="!$props.to"
-    class="transition-colors duration-700"
     :class="{
       [VariantEnum[$props.variant]]: true,
       [PaddingEnum[$props.padding]]: true,
@@ -26,11 +25,12 @@
     variant?: VariantType
   }
 
-  type VariantType = "default" | "tonal" | "text"
+  type VariantType = "default" | "tonal" | "text" | "plain"
   enum VariantEnum {
-    default = "font-bold text-white bg-emerald-700 hover:text-emerald-100 active:text-emerald-100 rounded-lg py-1",
-    tonal = "",
-    text = "font-bold hover:text-emerald-700 active:text-emerald-700",
+    default = "font-bold text-white bg-emerald-700 rounded-lg py-1",
+    tonal = "font-bold text-emerald-700 bg-emerald-100 rounded-lg py-1",
+    text = "font-bold",
+    plain = "font-bold text-emerald-700",
   }
 
   type PaddingType = "default" | "large" | "zero"

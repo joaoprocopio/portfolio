@@ -1,5 +1,5 @@
 <template>
-  <nuxt-link :to="$props.to" class="transition-colors duration-700">
+  <nuxt-link :to="$props.to">
     <slot />
   </nuxt-link>
 </template>
