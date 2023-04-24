@@ -1,6 +1,6 @@
 <template>
   <app-header />
-  <main>
+  <main class="pt-12">
     <slot />
   </main>
   <app-footer />

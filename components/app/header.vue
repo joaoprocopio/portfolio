@@ -1,6 +1,7 @@
 <template>
   <app-container
     is="header"
+    class="bg-white fixed"
     content-class="h-12 flex justify-between items-center">
     <ui-button padding="zero" variant="text" to="/">João</ui-button>
     <nav class="flex items-center h-full gap-4">

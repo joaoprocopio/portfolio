@@ -32,24 +32,7 @@ export default defineNuxtConfig({
           rel: "canonical",
           href: "http://joaoprocopio.github.io/",
         },
-        {
-          rel: "preconnect",
-          href: "https://fonts.googleapis.com",
-        },
-        {
-          rel: "preconnect",
-          href: "https://fonts.gstatic.com",
-          crossorigin: "",
-        },
-        {
-          rel: "preload",
-          as: "style",
-          href: "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap",
-        },
-        {
-          rel: "stylesheet",
-          href: "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap",
-        },
+        // TODO: definir a fonte sans e mono do site
       ],
     },
   },
