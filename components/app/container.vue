@@ -1,7 +1,7 @@
 <template>
   <component :is="$props.tag" class="w-full">
     <div
-      class="mx-auto px-4 py-2"
+      class="mx-auto px-4 max-w-4xl"
       :class="{
         [$props.maxWidth]: true,
         [$props.contentClass]: true,
@@ -12,13 +12,8 @@
 </template>
 
 <script lang="ts">
-  type MaxWidthType =
-    | "max-w-lg"
-    | "max-w-2xl"
-    | "max-w-4xl"
-    | "max-w-6xl"
-    | "max-w-full"
-  type TagsType = "div" | "header" | "footer"
+  type MaxWidthType = "max-w-lg" | "max-w-2xl" | "max-w-4xl" | "max-w-full"
+  type TagsType = "div" | "header" | "footer" | "section"
 </script>
 
 <script setup lang="ts">
@@ -27,7 +22,7 @@
   const $props = defineProps({
     maxWidth: {
       type: String as PropType<MaxWidthType>,
-      default: "max-w-4xl",
+      default: "max-w-2xl",
     },
     contentClass: {
       type: String,

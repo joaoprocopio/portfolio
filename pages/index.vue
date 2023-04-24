@@ -1,4 +1,3 @@
 <template>
-  <home-introduction />
-  <home-about />
+  <app-container> Hello world! </app-container>
 </template>

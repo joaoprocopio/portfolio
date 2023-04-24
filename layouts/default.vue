@@ -1,7 +1,7 @@
 <template>
-  <shared-header />
+  <app-header />
   <main>
     <slot />
   </main>
-  <shared-footer />
+  <app-footer />
 </template>
