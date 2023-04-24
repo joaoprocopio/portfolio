@@ -55,7 +55,7 @@ export default defineNuxtConfig({
     },
   },
   modules: ["@nuxt/content"],
-  css: ["~/assets/styles/tailwind.css"],
+  css: ["~/assets/styles/index.css"],
   postcss: {
     plugins: {
       tailwindcss: {},
