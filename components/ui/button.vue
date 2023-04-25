@@ -2,6 +2,7 @@
   <button
     v-if="!$props.to"
     :class="{
+      [classes]: true,
       [VariantEnum[$props.variant]]: true,
       [PaddingEnum[$props.padding]]: true,
     }">
@@ -11,6 +12,7 @@
     v-else
     :to="$props.to"
     :class="{
+      [classes]: true,
       [VariantEnum[$props.variant]]: true,
       [PaddingEnum[$props.padding]]: true,
     }">
@@ -25,12 +27,11 @@
     variant?: VariantType
   }
 
-  type VariantType = "default" | "tonal" | "text" | "plain"
+  type VariantType = "default" | "tonal" | "plain"
   enum VariantEnum {
-    default = "font-bold text-white bg-emerald-700 rounded-lg py-1",
-    tonal = "font-bold text-emerald-700 bg-emerald-100 rounded-lg py-1",
-    text = "font-bold",
-    plain = "font-bold text-emerald-700",
+    default = "text-white bg-emerald-700",
+    tonal = "text-emerald-700 bg-emerald-100",
+    plain = "text-emerald-700",
   }
 
   type PaddingType = "default" | "large" | "zero"
@@ -42,6 +43,8 @@
 </script>
 
 <script setup lang="ts">
+  const classes = ref("font-bold rounded-lg py-1")
+
   const $props = withDefaults(defineProps<Props>(), {
     to: "",
     padding: "default",

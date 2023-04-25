@@ -32,6 +32,6 @@
   const $props = withDefaults(defineProps<Props>(), {
     is: "div",
     contentClass: "",
-    maxWidth: "max-w-6xl",
+    maxWidth: "max-w-2xl",
   })
 </script>

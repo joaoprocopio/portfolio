@@ -36,7 +36,7 @@ export default defineNuxtConfig({
       ],
     },
   },
-  modules: ["@nuxt/content"],
+  modules: ["@nuxt/content", "@nuxt/image-edge"],
   css: ["~/assets/styles/index.css"],
   postcss: {
     plugins: {
