@@ -32,6 +32,12 @@ export default defineNuxtConfig({
           rel: "canonical",
           href: "http://joaoprocopio.github.io/",
         },
+        {
+          key: "shortcut icon",
+          rel: "shortcut icon",
+          type: "image/svg+xml",
+          href: "/favicon.svg",
+        },
         // TODO: definir a fonte sans e mono do site
       ],
     },

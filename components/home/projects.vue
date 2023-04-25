@@ -28,11 +28,5 @@
 </script>
 
 <script setup lang="ts">
-  const projects: Ref<Array<Project>> = ref([
-    {
-      src: "/me.webp",
-      title: "",
-      description: "",
-    },
-  ])
+  const projects: Ref<Array<Project>> = ref([])
 </script>
