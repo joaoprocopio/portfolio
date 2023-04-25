@@ -5,7 +5,7 @@
       class="h-screen w-screen absolute -z-10 inset-y-0 inset-x-0 object-cover"
       src="/images/background.webp"
       alt="rio cristalino próximo a uma pedra cinza"
-      sizes="xs:320px sm:640px md:768px lg:1024px xl:1280px"
+      sizes="xl:100vw lg:100vw md:100vw sm:100vw xs:100vw"
       quality="60"
       preload />
     <ui-card
