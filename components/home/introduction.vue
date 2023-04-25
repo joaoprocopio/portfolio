@@ -9,7 +9,7 @@
       quality="60"
       preload />
     <ui-card
-      class="flex flex-col items-center text-center gap-8 sm:flex-row sm:text-left">
+      class="bg-white flex flex-col items-center text-center gap-8 sm:flex-row sm:text-left">
       <div>
         <h1 class="font-bold text-emerald-700 pb-2">Seja bem-vindo!</h1>
         <h2 class="text-2xl font-bold">Meu nome é João</h2>
