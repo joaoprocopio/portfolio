@@ -26,9 +26,12 @@
       </section>
       <section class="flex flex-col items-center gap-4">
         <nuxt-img
-          class="rounded-lg object-cover h-64 sm:w-full"
-          src="/images/me.webp"
-          width="256" />
+          class="rounded-lg object-cover h-72 sm:w-full"
+          src="/me.webp"
+          alt="fotografia de João"
+          loading="lazy"
+          quality="80"
+          width="300" />
         <p>Algumas das tecnologias que tenho trabalhado recentemente:</p>
         <ul
           class="font-bold grid grid-cols-2 auto-rows-auto gap-x-4 gap-y-2 sm:self-start">

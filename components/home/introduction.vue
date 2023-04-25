@@ -3,9 +3,9 @@
     content-class="py-8 h-safe-screen flex flex-col items-center justify-center">
     <nuxt-img
       class="h-screen w-screen absolute -z-10 inset-y-0 inset-x-0 object-cover"
-      src="/images/background.webp"
+      src="/background.webp"
       alt="rio cristalino próximo a uma pedra cinza"
-      sizes="xl:100vw lg:100vw md:100vw sm:100vw xs:100vw"
+      sizes="xs:100vw sm:100vw md:100vw lg:100vw xl:100vw"
       quality="60"
       preload />
     <ui-card

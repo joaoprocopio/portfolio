@@ -1,7 +1,7 @@
 export default defineNuxtConfig({
   app: {
     head: {
-      title: "Engenheiro de software e resolvedor de problemas.",
+      title: "Engenheiro de software e resolvedor de problemas",
       titleTemplate: "João Procópio: %s",
       htmlAttrs: {
         lang: "pt-BR",
@@ -22,7 +22,7 @@ export default defineNuxtConfig({
           hid: "description",
           name: "description",
           content:
-            "Sou um engenheiro de software. Eu acredito que a tecnologia pode resolver problemas reais e estou sempre procurando maneiras inovadoras e eficazes para enfrentar esses desafios.",
+            "João Procópio é um engenheiro de software que acredita na tecnologia como um caminho para resolver problemas reais",
         },
         { hid: "robots", name: "robots", content: "index, follow" },
       ],
@@ -44,7 +44,11 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  experimental: {
-    payloadExtraction: false,
+  dir: {
+    public: "static",
+  },
+  telemetry: false,
+  image: {
+    dir: "static/images/",
   },
 })
