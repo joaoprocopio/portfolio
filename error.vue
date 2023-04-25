@@ -1,8 +1,9 @@
 <template>
   <nuxt-layout>
     <app-container
-      class="bg-emerald-700 pt-12"
-      content-class="h-safe-screen  py-8 flex flex-col items-center justify-center">
+      is-page
+      class="bg-emerald-700"
+      content-class="h-safe-screen py-8 flex flex-col items-center justify-center">
       <ui-card
         class="bg-white flex flex-col items-center justify-center text-center">
         <h1 class="font-bold text-emerald-700 pb-2">Desculpe</h1>

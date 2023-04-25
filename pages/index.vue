@@ -1,6 +1,6 @@
 <template>
-  <lazy-home-introduction id="introdução" class="py-12" />
-  <lazy-home-about id="sobre" class="py-12" />
-  <lazy-home-projects id="projetos" class="py-12" />
-  <lazy-home-contacts id="contato" class="py-12" />
+  <lazy-home-introduction id="introdução" is-page />
+  <lazy-home-about id="sobre" is-page />
+  <lazy-home-projects id="projetos" is-page />
+  <lazy-home-contacts id="contato" is-page />
 </template>
