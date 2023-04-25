@@ -27,11 +27,12 @@
     variant?: VariantType
   }
 
-  type VariantType = "default" | "tonal" | "plain"
+  type VariantType = "default" | "tonal" | "plain" | "text"
   enum VariantEnum {
     default = "text-white bg-emerald-700",
     tonal = "text-emerald-700 bg-emerald-100",
     plain = "text-emerald-700",
+    text = "",
   }
 
   type PaddingType = "default" | "large" | "zero"

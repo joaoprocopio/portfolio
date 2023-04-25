@@ -1,11 +1,11 @@
 <template>
   <nuxt-layout>
     <app-container
-      class="bg-emerald-700"
-      content-class="h-safe-screen py-8 flex flex-col items-center justify-center">
+      class="bg-emerald-700 pt-12"
+      content-class="h-safe-screen  py-8 flex flex-col items-center justify-center">
       <ui-card class="flex flex-col items-center justify-center text-center">
-        <p class="font-bold text-emerald-700 pb-2">Desculpe</p>
-        <h1 class="text-2xl font-bold pb-2">Ocorreu um erro</h1>
+        <h1 class="font-bold text-emerald-700 pb-2">Desculpe</h1>
+        <h2 class="text-2xl font-bold pb-2">Ocorreu um erro</h2>
         <p class="text-neutral-500 pb-8 w-48">
           A página
           <ui-code>{{ path }}</ui-code>
