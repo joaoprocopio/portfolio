@@ -37,7 +37,7 @@
           width="300" />
         <p>Algumas das tecnologias que tenho trabalhado recentemente:</p>
         <ul
-          class="font-bold grid grid-cols-2 auto-rows-auto gap-x-4 gap-y-2 sm:self-start">
+          class="font-bold grid grid-cols-2 auto-rows-auto gap-x-8 gap-y-2 sm:self-start">
           <li class="text-emerald-700">JavaScript</li>
           <li class="text-emerald-700">Vue.js</li>
           <li class="text-emerald-600">TypeScript</li>

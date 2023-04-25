@@ -2,7 +2,7 @@
 
 @layer base {
   body {
-    @apply scroll-smooth text-neutral-700;
+    @apply scroll-smooth transition-all duration-500 text-neutral-700;
   }
 }
 

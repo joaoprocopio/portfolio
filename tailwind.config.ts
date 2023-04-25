@@ -12,9 +12,8 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        // TODO: definir a fonte sans e mono do site
-        sans: [...fontFamily.sans],
-        mono: [...fontFamily.mono],
+        sans: ["Inter", ...fontFamily.sans],
+        mono: ["Cousine", ...fontFamily.mono],
       },
       height: {
         "safe-screen": "calc(100vh - 48px)",

@@ -1,5 +1,5 @@
 <template>
-  <nuxt-link class="w-fit h-fit" :target="$props.target" :to="$props.to">
+  <nuxt-link class="inline w-fit" :target="$props.target" :to="$props.to">
     <slot />
   </nuxt-link>
 </template>
