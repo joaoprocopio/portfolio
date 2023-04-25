@@ -3,10 +3,10 @@
     content-class="h-safe-screen flex flex-col items-center justify-center">
     <nuxt-img
       class="h-screen w-screen absolute -z-10 inset-y-0 inset-x-0 object-cover"
-      src="/images/background.jpeg"
-      format="webp"
+      src="/images/background.webp"
+      alt="rio cristalino próximo a uma pedra cinza"
       sizes="xs:320px sm:640px md:768px lg:1024px xl:1280px"
-      quality="80"
+      quality="60"
       preload />
     <ui-card
       class="flex flex-col items-center text-center gap-8 md:flex-row md:text-left">
