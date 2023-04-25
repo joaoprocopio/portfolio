@@ -1,8 +1,9 @@
 <template>
   <app-container
     is="footer"
+    vertical-padding="large"
     class="bg-emerald-100 text-emerald-700"
-    content-class="py-16 grid auto-rows-auto gap-16">
+    content-class="grid auto-rows-auto gap-16">
     <section class="flex flex-col gap-2 col-span-full">
       <h2 class="font-medium">Contatos</h2>
       <p>Sinta-se livre para entrar em contato comigo!</p>

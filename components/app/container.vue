@@ -8,6 +8,7 @@
     <div
       class="mx-auto px-4"
       :class="{
+        [VerticalPaddingEnum[$props.verticalPadding]]: true,
         [MaxWidthEnum[$props.maxWidth]]: true,
         [$props.contentClass]: true,
       }">
@@ -21,6 +22,7 @@
     is?: IsType
     isPage?: boolean
     contentClass?: string
+    verticalPadding?: VerticalPaddingType
     maxWidth?: MaxWidthType
   }
 
@@ -30,6 +32,13 @@
   enum MaxWidthEnum {
     default = "max-w-2xl",
   }
+
+  type VerticalPaddingType = "default" | "medium" | "large"
+  enum VerticalPaddingEnum {
+    default = "",
+    medium = "py-8",
+    large = "py-16",
+  }
 </script>
 
 <script setup lang="ts">
@@ -38,5 +47,6 @@
     isPage: false,
     contentClass: "",
     maxWidth: "default",
+    verticalPadding: "default",
   })
 </script>

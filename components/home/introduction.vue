@@ -1,6 +1,8 @@
 <template>
   <app-container
-    content-class="py-8 h-safe-screen flex flex-col items-center justify-center">
+    is-page
+    vertical-padding="medium"
+    content-class="h-safe-screen flex flex-col items-center justify-center">
     <nuxt-img
       class="h-screen w-screen absolute -z-10 inset-y-0 inset-x-0 object-cover"
       src="/background.webp"

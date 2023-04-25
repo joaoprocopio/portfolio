@@ -2,8 +2,9 @@
   <nuxt-layout>
     <app-container
       is-page
+      vertical-padding="medium"
       class="bg-emerald-700"
-      content-class="h-safe-screen py-8 flex flex-col items-center justify-center">
+      content-class="h-safe-screen flex flex-col items-center justify-center">
       <ui-card
         content-class="bg-white flex flex-col items-center justify-center text-center">
         <h1 class="font-bold text-emerald-700 pb-2">Desculpe</h1>

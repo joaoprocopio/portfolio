@@ -1,5 +1,8 @@
 <template>
-  <app-container content-class="text-neutral-500 py-8 text-center sm:text-left">
+  <app-container
+    is-page
+    vertical-padding="medium"
+    content-class="text-neutral-500 text-center sm:text-left">
     <h2 class="font-bold pb-2 text-emerald-700">Sobre mim</h2>
     <article class="grid grid-rows-1 grid-cols-1 sm:grid-cols-2 gap-8">
       <section class="flex flex-col items-center gap-4">
