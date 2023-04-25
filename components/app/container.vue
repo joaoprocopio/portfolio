@@ -19,6 +19,7 @@
   }
 
   // TODO: resolver isso de maxwidth  usando enums que nem nos botoes
+  // TODO: ter uma prop page, que vai aplicar py-12
   type MaxWidthType =
     | "max-w-lg"
     | "max-w-2xl"
