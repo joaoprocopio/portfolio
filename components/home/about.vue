@@ -30,7 +30,7 @@
       <section class="flex flex-col gap-4 items-center sm:items-start">
         <nuxt-img
           class="rounded-lg object-cover h-72 sm:w-full"
-          src="/me.webp"
+          src="images/me.webp"
           alt="fotografia de João"
           loading="lazy"
           quality="80"

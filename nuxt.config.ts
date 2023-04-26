@@ -66,11 +66,5 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  dir: {
-    public: "static",
-  },
   telemetry: false,
-  image: {
-    dir: "static/images/",
-  },
 })

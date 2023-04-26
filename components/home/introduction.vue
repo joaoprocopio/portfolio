@@ -5,7 +5,7 @@
     content-class="h-safe-screen flex flex-col items-center justify-center">
     <nuxt-img
       class="h-screen w-screen absolute -z-10 inset-y-0 inset-x-0 object-cover"
-      src="/background.webp"
+      src="images/background.webp"
       alt="rio cristalino próximo a uma pedra cinza"
       sizes="xs:100vw sm:100vw md:100vw lg:100vw xl:100vw"
       quality="60"

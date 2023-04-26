@@ -49,19 +49,19 @@
 
   const projects: Ref<Array<Project>> = ref([
     {
-      src: "/black-cat.webp",
+      src: "images/black-cat.webp",
       href: "https://github.com/joaoprocopio/djavue",
       title: "Djavue",
       subtitle: "Template full-stack utilizando Django, Vue e Postgres",
     },
     {
-      src: "/wordle.webp",
+      src: "images/wordle.webp",
       href: "https://github.com/joaoprocopio/wordle",
       title: "Wordle",
       subtitle: "Implementação do Wordle em Vue.js",
     },
     {
-      src: "/game-of-life.webp",
+      src: "images/game-of-life.webp",
       href: "https://github.com/joaoprocopio/life",
       title: "Life",
       subtitle: "Implementação de Game of Life em Vue.js",
