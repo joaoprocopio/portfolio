@@ -27,7 +27,7 @@
           poderosas e impactantes.
         </p>
       </section>
-      <section class="flex flex-col items-center gap-4">
+      <section class="flex flex-col gap-4 items-center sm:items-start">
         <nuxt-img
           class="rounded-lg object-cover h-72 sm:w-full"
           src="/me.webp"
@@ -36,16 +36,31 @@
           quality="80"
           width="300" />
         <p>Algumas das tecnologias que tenho trabalhado recentemente:</p>
-        <ul
-          class="font-bold grid grid-cols-2 auto-rows-auto gap-x-8 gap-y-2 sm:self-start">
-          <li class="text-emerald-700">JavaScript</li>
-          <li class="text-emerald-700">Vue.js</li>
-          <li class="text-emerald-600">TypeScript</li>
-          <li class="text-emerald-600">Nuxt.js</li>
-          <li class="text-emerald-500">Python</li>
-          <li class="text-emerald-500">Django</li>
-          <li class="text-emerald-400">Dart</li>
-          <li class="text-emerald-400">Flutter</li>
+        <ul class="font-bold grid grid-cols-2 gap-x-8 gap-y-4">
+          <li class="flex gap-2 items-center">
+            <icon-javascript class="h-4 w-4" />JavaScript
+          </li>
+          <li class="flex gap-2 items-center">
+            <icon-vue class="h-4 w-4" />Vue.js
+          </li>
+          <li class="flex gap-2 items-center">
+            <icon-typescript class="h-4 w-4" />TypeScript
+          </li>
+          <li class="flex gap-2 items-center">
+            <icon-nuxt class="h-4 w-4" />Nuxt.js
+          </li>
+          <li class="flex gap-2 items-center">
+            <icon-python class="h-4 w-4" />Python
+          </li>
+          <li class="flex gap-2 items-center">
+            <icon-django class="h-4 w-4" />Django
+          </li>
+          <li class="flex gap-2 items-center">
+            <icon-dart class="h-4 w-4" />Dart
+          </li>
+          <li class="flex gap-2 items-center">
+            <icon-flutter class="h-4 w-4" />Flutter
+          </li>
         </ul>
       </section>
     </article>
