@@ -8,7 +8,7 @@
     </ui-link>
     <nav class="flex items-center h-full gap-4">
       <ui-button padding="zero" variant="text" to="/blog"> Blog </ui-button>
-      <ui-button to="/#contato"> Contato </ui-button>
+      <ui-button class="text-white" to="/#contato"> Contato </ui-button>
     </nav>
   </app-container>
 </template>

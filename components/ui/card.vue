@@ -1,7 +1,6 @@
 <template>
-  <div>
+  <div class="rounded-lg overflow-hidden">
     <div
-      class="rounded-lg overflow-hidden"
       :class="{
         [$props.contentClass]: true,
         [PaddingEnum[$props.padding]]: true,

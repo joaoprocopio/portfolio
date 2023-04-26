@@ -2,6 +2,7 @@
   <button
     v-if="!$props.to"
     :class="{
+      'w-full': $props.block,
       [classes]: true,
       [VariantEnum[$props.variant]]: true,
       [PaddingEnum[$props.padding]]: true,
@@ -12,6 +13,7 @@
     v-else
     :to="$props.to"
     :class="{
+      'w-full': $props.block,
       [classes]: true,
       [VariantEnum[$props.variant]]: true,
       [PaddingEnum[$props.padding]]: true,
@@ -23,13 +25,14 @@
 <script lang="ts">
   interface Props {
     to?: string
+    block?: boolean
     padding?: PaddingType
     variant?: VariantType
   }
 
   type VariantType = "default" | "tonal" | "plain" | "text"
   enum VariantEnum {
-    default = "text-white bg-emerald-700",
+    default = "bg-emerald-700",
     tonal = "text-emerald-700 bg-emerald-100",
     plain = "text-emerald-700",
     text = "",
@@ -50,5 +53,6 @@
     to: "",
     padding: "default",
     variant: "default",
+    block: false,
   })
 </script>
