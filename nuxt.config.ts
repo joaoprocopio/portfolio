@@ -33,9 +33,8 @@ export default defineNuxtConfig({
           href: "http://joaoprocopio.github.io/",
         },
         {
-          key: "shortcut icon",
-          rel: "shortcut icon",
-          type: "image/svg+xml",
+          key: "icon",
+          rel: "icon",
           href: "/favicon.svg",
         },
         {
@@ -48,11 +47,17 @@ export default defineNuxtConfig({
           crossorigin: "",
         },
         {
-          rel: "stylesheet",
+          rel: "preload",
+          as: "style",
+          type: "text/css",
+          onload: "this.rel='stylesheet'",
           href: "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap",
         },
         {
-          rel: "stylesheet",
+          rel: "preload",
+          as: "style",
+          type: "text/css",
+          onload: "this.rel='stylesheet'",
           href: "https://fonts.googleapis.com/css2?family=Cousine:wght@400&display=swap",
         },
       ],
