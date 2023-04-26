@@ -36,31 +36,15 @@
           quality="80"
           width="300" />
         <p>Algumas das tecnologias que tenho trabalhado recentemente:</p>
-        <ul class="font-bold grid grid-cols-2 gap-x-8 gap-y-4">
-          <li class="flex gap-2 items-center">
-            <icon-javascript class="h-4 w-4" />JavaScript
-          </li>
-          <li class="flex gap-2 items-center">
-            <icon-vue class="h-4 w-4" />Vue.js
-          </li>
-          <li class="flex gap-2 items-center">
-            <icon-typescript class="h-4 w-4" />TypeScript
-          </li>
-          <li class="flex gap-2 items-center">
-            <icon-nuxt class="h-4 w-4" />Nuxt.js
-          </li>
-          <li class="flex gap-2 items-center">
-            <icon-python class="h-4 w-4" />Python
-          </li>
-          <li class="flex gap-2 items-center">
-            <icon-django class="h-4 w-4" />Django
-          </li>
-          <li class="flex gap-2 items-center">
-            <icon-dart class="h-4 w-4" />Dart
-          </li>
-          <li class="flex gap-2 items-center">
-            <icon-flutter class="h-4 w-4" />Flutter
-          </li>
+        <ul class="font-bold text-emerald-700 grid grid-cols-2 gap-x-8 gap-y-2">
+          <li>JavaScript</li>
+          <li>Vue.js</li>
+          <li>TypeScript</li>
+          <li>Nuxt.js</li>
+          <li>Python</li>
+          <li>Django</li>
+          <li>Dart</li>
+          <li>Flutter</li>
         </ul>
       </section>
     </article>
