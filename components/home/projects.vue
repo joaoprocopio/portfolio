@@ -8,7 +8,7 @@
       <template v-for="(project, id) in projects" :key="id">
         <lazy-ui-card
           padding="zero"
-          content-class="w-full h-96 grid grid-rows-2 sm:grid-rows-none sm:grid-cols-2 sm:h-64">
+          content-class="w-full bg-emerald-100 h-96 grid grid-rows-2 gap-4 sm:grid-rows-none sm:gap-8 sm:grid-cols-2 sm:h-64">
           <nuxt-img
             class="w-full h-full object-cover"
             :src="project.src"
@@ -17,7 +17,7 @@
             width="400"
             loading="lazy" />
           <div
-            class="w-full h-full bg-emerald-100 text-emerald-700 flex flex-col justify-between px-4 py-4 sm:py-8">
+            class="w-full h-full text-emerald-700 flex flex-col justify-between p-4 pt-0 pb-8 sm:pl-0 sm:p-8">
             <div>
               <h2 class="text-2xl font-bold">{{ project.title }}</h2>
               <h3 class="text-lg font-medium">{{ project.subtitle }}</h3>
