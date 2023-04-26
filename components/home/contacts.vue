@@ -7,6 +7,7 @@
     <h2 class="font-semibold">Precisa de um Engenheiro de Software?</h2>
     <ui-link
       class="font-bold text-2xl"
+      target="_blank"
       to="mailto:joaovitorcprocopio@gmail.com">
       Vamos trabalhar juntos!
     </ui-link>
