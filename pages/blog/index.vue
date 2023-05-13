@@ -26,6 +26,4 @@
   const { data } = await useAsyncData("posts", () => fetchContentNavigation())
 
   const posts = data.value?.find((folder) => folder._path === "/blog")?.children
-
-  console.log(posts)
 </script>
