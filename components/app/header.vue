@@ -2,7 +2,7 @@
   <app-container
     is="header"
     class="bg-white fixed"
-    content-class="h-12 flex justify-between items-center">
+    content-class="h-16 flex justify-between items-center">
     <ui-link to="/" class="text-white">
       <icon-logo class="h-8 w-8" />
     </ui-link>

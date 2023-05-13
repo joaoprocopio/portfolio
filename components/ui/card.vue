@@ -16,9 +16,10 @@
     contentClass?: string
   }
 
-  type PaddingType = "default" | "zero"
+  type PaddingType = "default" | "zero" | "small"
   enum PaddingEnum {
-    default = "px-4 py-8",
+    default = "p-8",
+    small = "p-4",
     zero = "",
   }
 </script>

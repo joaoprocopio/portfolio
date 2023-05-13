@@ -1,6 +1,6 @@
 <template>
-  <lazy-home-introduction id="introdução" />
-  <lazy-home-about id="sobre" />
-  <lazy-home-projects id="projetos" />
-  <lazy-home-contacts id="contato" />
+  <home-introduction id="introdução" />
+  <home-about id="sobre" />
+  <home-projects id="projetos" />
+  <home-contacts id="contato" />
 </template>

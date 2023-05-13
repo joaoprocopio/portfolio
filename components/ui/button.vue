@@ -11,6 +11,7 @@
   </button>
   <ui-link
     v-else
+    :is-button="true"
     :to="$props.to"
     :class="{
       'w-full': $props.block,

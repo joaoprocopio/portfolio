@@ -3,7 +3,7 @@
     :is="$props.is"
     class="w-full"
     :class="{
-      'py-12': $props.isPage,
+      'py-16': $props.isPage,
     }">
     <div
       class="mx-auto px-4"
@@ -33,9 +33,10 @@
     default = "max-w-2xl",
   }
 
-  type VerticalPaddingType = "default" | "medium" | "large"
+  type VerticalPaddingType = "default" | "small" | "medium" | "large"
   enum VerticalPaddingEnum {
     default = "",
+    small = "py-4",
     medium = "py-8",
     large = "py-16",
   }

@@ -6,7 +6,7 @@
     <h2 class="font-bold pb-2 text-emerald-700">Meus projetos</h2>
     <section class="flex flex-col gap-4">
       <template v-for="(project, id) in projects" :key="id">
-        <lazy-ui-card
+        <ui-card
           padding="zero"
           content-class="w-full bg-emerald-100 h-96 grid grid-rows-2 gap-4 sm:grid-rows-none sm:gap-8 sm:grid-cols-2 sm:h-64">
           <nuxt-img
@@ -31,7 +31,7 @@
               Veja o código no GitHub
             </ui-button>
           </div>
-        </lazy-ui-card>
+        </ui-card>
       </template>
     </section>
   </app-container>

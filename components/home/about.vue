@@ -36,15 +36,16 @@
           quality="80"
           width="300" />
         <p>Algumas das tecnologias que tenho trabalhado recentemente:</p>
-        <ul class="font-bold text-emerald-700 grid grid-cols-2 gap-x-8 gap-y-2">
-          <li>JavaScript</li>
-          <li>Vue.js</li>
-          <li>TypeScript</li>
-          <li>Nuxt.js</li>
-          <li>Python</li>
-          <li>Django</li>
-          <li>Dart</li>
-          <li>Flutter</li>
+        <ul
+          class="font-bold text-emerald-700 grid grid-cols-2 gap-x-8 gap-y-2 text-left">
+          <li><icon-javascript class="inline mr-2 h-4 w-4" /> JavaScript</li>
+          <li><icon-vue class="inline mr-2 h-4 w-4" /> Vue.js</li>
+          <li><icon-typescript class="inline mr-2 h-4 w-4" /> TypeScript</li>
+          <li><icon-nuxt class="inline mr-2 h-4 w-4" /> Nuxt.js</li>
+          <li><icon-python class="inline mr-2 h-4 w-4" /> Python</li>
+          <li><icon-django class="inline mr-2 h-4 w-4" /> Django</li>
+          <li><icon-dart class="inline mr-2 h-4 w-4" /> Dart</li>
+          <li><icon-flutter class="inline mr-2 h-4 w-4" /> Flutter</li>
         </ul>
       </section>
     </article>

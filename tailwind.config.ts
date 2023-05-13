@@ -16,7 +16,7 @@ const config: Config = {
         mono: ["Cousine", ...fontFamily.mono],
       },
       height: {
-        "safe-screen": "calc(100vh - 48px)",
+        "safe-screen": "calc(100vh - 64px)",
       },
     },
   },

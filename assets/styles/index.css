@@ -1,6 +1,7 @@
 @tailwind base;
 
 @layer base {
+  html,
   body {
     @apply scroll-smooth transition-all duration-500 text-neutral-700;
   }
