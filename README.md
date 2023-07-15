@@ -1,4 +1,4 @@
-# joaoprocopio.github.io
+# v1.joaoprocopio.com.br
 
 ```sh
 nvm use

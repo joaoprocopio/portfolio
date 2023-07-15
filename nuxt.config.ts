@@ -30,7 +30,7 @@ export default defineNuxtConfig({
         {
           key: "canonical",
           rel: "canonical",
-          href: "http://joaoprocopio.github.io/",
+          href: "v1.joaoprocopio.com.br",
         },
         {
           key: "icon",

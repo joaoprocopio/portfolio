@@ -67,7 +67,7 @@
       <ui-link
         class="font-bold"
         target="_blank"
-        to="https://github.com/joaoprocopio/joaoprocopio.github.io">
+        to="https://github.com/joaoprocopio/v1.joaoprocopio.com.br">
         Veja o código fonte
       </ui-link>
     </div>
